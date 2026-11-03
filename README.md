@@ -7,6 +7,7 @@ the open-source infrastructure they depend on. I focus on the parts that move mo
 
 - **[Touchmark](https://github.com/furkan3152/Touchmark_agent)**: security audits for AI agents that hold Stellar keys, with passing results recorded on chain. · [Demo](https://touchmark-stellar.vercel.app)
 - **[Kletia](https://github.com/furkan3152/Kletia)**: turns a plain-language goal into verified, wallet-signed steps across EVM and Solana. · [kletiaai.xyz](https://kletiaai.xyz)
+- **[FheCat](https://github.com/FheCat/FheCat)**: an NFT collection whose DNA is drawn and kept encrypted with Fhenix FHE, with on-chain art and a blind PvP arena scored under FHE. · [fhecat.com](https://fhecat.com)
 - **[Lykia](https://github.com/furkan3152/Lykia)**: an agent and stablecoin desk on Arc, where every agent stays inside a rule set it cannot exceed.
 - **[Elyia](https://github.com/furkan3152/Elyia)**: an intent and trading deck for Elysium, HyperEVM and HyperCore.
 - **[HaPaPay](https://github.com/furkan3152/HaPaPay)**: send stablecoins and tokenized stocks to a social handle instead of an address.
