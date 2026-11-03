@@ -13,11 +13,23 @@ non-transferable credential. Benchmarked on real defects that maintainers fixed 
 · [Live demo](https://touchmark-stellar.vercel.app)
 <br><sub>Python · Rust (Soroban) · TypeScript</sub>
 
-**[Kletia](https://github.com/furkan3152/Kletia)**: intent infrastructure for EVM and Solana. A sentence like
-*"bridge 50 USDC from Base to Solana, then swap half to JitoSOL"* becomes a graph of wallet-signed steps, each
-verified on chain before the next one unlocks. Ships as an app, API, SDK, React widget, CLI and MCP server.
-· [kletiaai.xyz](https://kletiaai.xyz)
-<br><sub>TypeScript · Solidity · Node.js</sub>
+**The Kletia family**: three products built on one idea. A plain-language goal is compiled into an auditable
+graph of steps, every step is checked against a fail-closed rule book, and the user's own wallet signs. The server
+never holds keys.
+
+- **[Kletia](https://github.com/furkan3152/Kletia)**: intent infrastructure for EVM and Solana, across nine networks.
+  A sentence like *"bridge 50 USDC from Base to Solana, then swap half to JitoSOL"* becomes wallet-signed steps, each
+  verified on chain before the next one unlocks. Ships as an app, API, SDK, React widget, CLI and MCP server.
+  · [kletiaai.xyz](https://kletiaai.xyz)
+- **[Lykia](https://github.com/furkan3152/Lykia)**: the agent and stablecoin desk, built on Arc. Each agent works
+  inside a typed *Fence* (caps, recipients, slippage, health factor, FX band), and sub-agents can never exceed their
+  parent's limits. Uses Circle's rails (USDC, CCTP V2, Gateway, StableFX), ERC-8004 agent identities and Arc memos.
+  Live on Arc mainnet in beta, capped per step.
+- **[Elyia](https://github.com/furkan3152/Elyra)**: the trading and portfolio deck for Elysium, HyperEVM and
+  HyperCore: bridge, swap, trade and track from one place, with HyperCore signing payloads checked against golden
+  test vectors. Testnet first.
+
+<sub>TypeScript · React · Solidity · Node.js</sub>
 
 **[HaPaPay](https://github.com/furkan3152/HaPaPay)**: pay a social handle, not an address. Send stablecoins and
 tokenized stocks to a GitHub, X, Telegram, Discord or Farcaster account across Robinhood Chain, Solana and Arc.
@@ -57,5 +69,9 @@ L2 on HyperEVM), with a 30 Hz authoritative server, NFT mint and on-chain round 
 ### Stack
 
 **Languages:** TypeScript, Rust, Solidity, Python
-<br>**Chains:** Stellar / Soroban, Solana, EVM (Base, Arbitrum, Arc, HyperEVM)
+<br>**Chains:** Stellar / Soroban, Solana, EVM (Base, Arbitrum, Arc, HyperEVM / HyperCore)
 <br>**Tools:** React, Next.js, Node.js, Foundry, Anchor / Pinocchio, PostgreSQL, Docker
+
+### Contact
+
+[furkanakdogan92@gmail.com](mailto:furkanakdogan92@gmail.com)
