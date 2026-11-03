@@ -62,6 +62,7 @@ L2 on HyperEVM), with a 30 Hz authoritative server, NFT mint and on-chain round 
 | [Agent Commerce Kit](https://github.com/agentcommercekit/ack/pull/261) | Apply the resolver timeout to `did:jwks` fetches | In review |
 | [XMTP](https://github.com/xmtp/libxmtp/pull/4870) | Reject config values with the wrong TOML shape | In review |
 | [Seaport.js](https://github.com/ProjectOpenSea/seaport-js/pull/1068) | Use `accountAddress` as the offerer in `createBulkOrders` | In review |
+| [Miden VM](https://github.com/0xMiden/miden-vm/pull/4125) | Keep signature commas out of item comments in `miden-format`, which produced MASM that no longer parsed | In review |
 | [Ink node](https://github.com/inkonchain/node/pull/99) | Let snapshot downloads overwrite a leftover archive on retry | In review |
 
 [All my pull requests →](https://github.com/pulls?q=is%3Apr+author%3Afurkan3152+-user%3Afurkan3152)
