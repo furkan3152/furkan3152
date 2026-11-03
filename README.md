@@ -25,7 +25,7 @@ never holds keys.
   inside a typed *Fence* (caps, recipients, slippage, health factor, FX band), and sub-agents can never exceed their
   parent's limits. Uses Circle's rails (USDC, CCTP V2, Gateway, StableFX), ERC-8004 agent identities and Arc memos.
   Live on Arc mainnet in beta, capped per step.
-- **[Elyia](https://github.com/furkan3152/Elyra)**: the trading and portfolio deck for Elysium, HyperEVM and
+- **[Elyia](https://github.com/furkan3152/Elyia)**: the trading and portfolio deck for Elysium, HyperEVM and
   HyperCore: bridge, swap, trade and track from one place, with HyperCore signing payloads checked against golden
   test vectors. Testnet first.
 
