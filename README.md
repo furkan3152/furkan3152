@@ -22,7 +22,7 @@ the open-source infrastructure they depend on. I focus on the parts that move mo
 | [XMTP](https://github.com/xmtp/libxmtp/pull/4870) | Reject config values with the wrong shape | Merged |
 | [OpenZeppelin](https://github.com/OpenZeppelin/stellar-contracts/pull/963) | Reject invalid `live_until_ledger` in confidential token allowances | Merged |
 | [Tempo](https://github.com/tempoxyz/tempo/pull/8825) | Faster prewarm invalidation (16k txs: 4.9 s → 5.5 ms) | Merged |
-| [Seaport.js](https://github.com/ProjectOpenSea/seaport-js/pull/1069) | Respect `accountAddress` in `createBulkOrders` | Merged (via #1069) |
+| [Seaport.js](https://github.com/ProjectOpenSea/seaport-js/pull/1069) | Respect `accountAddress` in `createBulkOrders` | Merged in #1069 (co-author) |
 | [Miden VM](https://github.com/0xMiden/miden-vm/pull/4125) | Fix `miden-format` output that no longer parsed | In review |
 | [Miden VM](https://github.com/0xMiden/miden-vm/pull/4126) | Keep `miden-format` type bodies within the line limit | In review |
 | [Fhenix CoFHE contracts](https://github.com/FhenixProtocol/cofhe-contracts/pull/163) | Enforce security zones in `select` | In review |
