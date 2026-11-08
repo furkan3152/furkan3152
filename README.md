@@ -22,12 +22,12 @@ the open-source infrastructure they depend on. I focus on the parts that move mo
 | [XMTP](https://github.com/xmtp/libxmtp/pull/4870) | Reject config values with the wrong shape | Merged |
 | [OpenZeppelin](https://github.com/OpenZeppelin/stellar-contracts/pull/963) | Reject invalid `live_until_ledger` in confidential token allowances | Merged |
 | [Tempo](https://github.com/tempoxyz/tempo/pull/8825) | Faster prewarm invalidation (16k txs: 4.9 s → 5.5 ms) | Merged |
+| [Seaport.js](https://github.com/ProjectOpenSea/seaport-js/pull/1069) | Respect `accountAddress` in `createBulkOrders` | Merged (via #1069) |
 | [Miden VM](https://github.com/0xMiden/miden-vm/pull/4125) | Fix `miden-format` output that no longer parsed | In review |
 | [Miden VM](https://github.com/0xMiden/miden-vm/pull/4126) | Keep `miden-format` type bodies within the line limit | In review |
 | [Fhenix CoFHE contracts](https://github.com/FhenixProtocol/cofhe-contracts/pull/163) | Enforce security zones in `select` | In review |
 | [Seismic Foundry](https://github.com/SeismicSystems/seismic-foundry/pull/235) | Sanitize `eth_createAccessList` requests | In review |
 | [Agent Commerce Kit](https://github.com/agentcommercekit/ack/pull/261) | Apply the resolver timeout to `did:jwks` | In review |
-| [Seaport.js](https://github.com/ProjectOpenSea/seaport-js/pull/1068) | Respect `accountAddress` in `createBulkOrders` | In review |
 | [Ink node](https://github.com/inkonchain/node/pull/99) | Fix snapshot download retries | In review |
 
 ### Stack
