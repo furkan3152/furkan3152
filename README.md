@@ -30,6 +30,14 @@ the open-source infrastructure they depend on. I focus on the parts that move mo
 | [Agent Commerce Kit](https://github.com/agentcommercekit/ack/pull/261) | Apply the resolver timeout to `did:jwks` | In review |
 | [Ink node](https://github.com/inkonchain/node/pull/99) | Fix snapshot download retries | In review |
 
+#### Bug reports
+
+| Project | Report | Status |
+|---|---|---|
+| [Arc](https://github.com/circlefin/arc-node/issues/507) | `db` and `stage` subcommands fail with the default `--datadir` | Confirmed, tracked by the Arc team |
+| [Arc](https://github.com/circlefin/arc-node/issues/501) | Database rollback leaves rows above the certificate tip | Open |
+| [Base](https://github.com/base/base/issues/6392) | `--p2p.discovery.interval 0` crashes peer discovery | Open |
+
 ### Stack
 
 TypeScript · Rust · Solidity · Python · React · Next.js · Foundry · Soroban · Solana · EVM
