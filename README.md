@@ -18,6 +18,7 @@ the open-source infrastructure they depend on. I focus on the parts that move mo
 
 | Project | Contribution | Status |
 |---|---|---|
+| [Nansen CLI](https://github.com/nansen-ai/nansen-cli/pull/851) | Use exact base-unit balances for percent and auto-adjusted trade amounts | Merged |
 | [Fhenix CoFHE SDK](https://github.com/FhenixProtocol/cofhesdk/pull/486) | Encrypt inputs in the security zone they were created with | Merged |
 | [XMTP](https://github.com/xmtp/libxmtp/pull/4870) | Reject config values with the wrong shape | Merged |
 | [OpenZeppelin](https://github.com/OpenZeppelin/stellar-contracts/pull/963) | Reject invalid `live_until_ledger` in confidential token allowances | Merged |
