@@ -18,12 +18,14 @@ the open-source infrastructure they depend on. I focus on the parts that move mo
 
 | Project | Contribution | Status |
 |---|---|---|
+| [Nansen CLI](https://github.com/nansen-ai/nansen-cli/pull/868) | Keep a broadcast Solana send from being reported as failed, which invited a second send | Merged |
 | [Nansen CLI](https://github.com/nansen-ai/nansen-cli/pull/851) | Use exact base-unit balances for percent and auto-adjusted trade amounts | Merged |
 | [Fhenix CoFHE SDK](https://github.com/FhenixProtocol/cofhesdk/pull/486) | Encrypt inputs in the security zone they were created with | Merged |
 | [XMTP](https://github.com/xmtp/libxmtp/pull/4870) | Reject config values with the wrong shape | Merged |
 | [OpenZeppelin](https://github.com/OpenZeppelin/stellar-contracts/pull/963) | Reject invalid `live_until_ledger` in confidential token allowances | Merged |
 | [Tempo](https://github.com/tempoxyz/tempo/pull/8825) | Faster prewarm invalidation (16k txs: 4.9 s → 5.5 ms) | Merged |
 | [Seaport.js](https://github.com/ProjectOpenSea/seaport-js/pull/1069) | Respect `accountAddress` in `createBulkOrders` | Merged in #1069 (co-author) |
+| [Nansen CLI](https://github.com/nansen-ai/nansen-cli/pull/874) | Report a Hyperliquid order whose connection dropped as possibly placed, not as never sent | In review |
 | [Miden VM](https://github.com/0xMiden/miden-vm/pull/4125) | Fix `miden-format` output that no longer parsed | In review |
 | [Miden VM](https://github.com/0xMiden/miden-vm/pull/4126) | Keep `miden-format` type bodies within the line limit | In review |
 | [Fhenix CoFHE contracts](https://github.com/FhenixProtocol/cofhe-contracts/pull/163) | Enforce security zones in `select` | In review |
@@ -35,9 +37,10 @@ the open-source infrastructure they depend on. I focus on the parts that move mo
 
 | Project | Report | Status |
 |---|---|---|
+| [Arc](https://github.com/circlefin/arc-node/issues/519) | Docker setup fails on Linux: `arc-snapshots` cannot write the `$ARC_HOME` bind mount | Confirmed, fixed by the Arc team |
 | [Arc](https://github.com/circlefin/arc-node/issues/507) | `db` and `stage` subcommands fail with the default `--datadir` | Confirmed, tracked by the Arc team |
 | [Arc](https://github.com/circlefin/arc-node/issues/501) | Database rollback leaves rows above the certificate tip | Open |
-| [Base](https://github.com/base/base/issues/6392) | `--p2p.discovery.interval 0` crashes peer discovery | Open |
+| [Base](https://github.com/base/base/issues/6392) | `--p2p.discovery.interval 0` crashes peer discovery | Closed as stale |
 
 ### Stack
 
