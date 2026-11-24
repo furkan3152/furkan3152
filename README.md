@@ -18,6 +18,7 @@ the open-source infrastructure they depend on. I focus on the parts that move mo
 
 | Project | Contribution | Status |
 |---|---|---|
+| [Nansen CLI](https://github.com/nansen-ai/nansen-cli/pull/876) | Send the whole SPL balance on `--max` for scaled-UI Token-2022 mints | Merged |
 | [Miden VM](https://github.com/0xMiden/miden-vm/pull/4126) | Keep `miden-format` type bodies within the line limit | Merged |
 | [Nansen CLI](https://github.com/nansen-ai/nansen-cli/pull/874) | Report a Hyperliquid order whose connection dropped as possibly placed, not as never sent | Merged |
 | [Nansen CLI](https://github.com/nansen-ai/nansen-cli/pull/875) | Read the alert being updated from the API, not the response cache | Merged |
@@ -28,7 +29,6 @@ the open-source infrastructure they depend on. I focus on the parts that move mo
 | [OpenZeppelin](https://github.com/OpenZeppelin/stellar-contracts/pull/963) | Reject invalid `live_until_ledger` in confidential token allowances | Merged |
 | [Tempo](https://github.com/tempoxyz/tempo/pull/8825) | Faster prewarm invalidation (16k txs: 4.9 s → 5.5 ms) | Merged |
 | [Seaport.js](https://github.com/ProjectOpenSea/seaport-js/pull/1069) | Respect `accountAddress` in `createBulkOrders` | Merged in #1069 (co-author) |
-| [Nansen CLI](https://github.com/nansen-ai/nansen-cli/pull/876) | Send the whole SPL balance on `--max` for scaled-UI Token-2022 mints | In review |
 | [Miden VM](https://github.com/0xMiden/miden-vm/pull/4125) | Fix `miden-format` output that no longer parsed | In review |
 | [Fhenix CoFHE contracts](https://github.com/FhenixProtocol/cofhe-contracts/pull/163) | Enforce security zones in `select` | In review |
 | [Seismic Foundry](https://github.com/SeismicSystems/seismic-foundry/pull/235) | Sanitize `eth_createAccessList` requests | In review |
