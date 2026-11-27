@@ -19,6 +19,7 @@ the open-source infrastructure they depend on. I focus on the parts that move mo
 | Project | Contribution | Status |
 |---|---|---|
 | [Nansen CLI](https://github.com/nansen-ai/nansen-cli/pull/876) | Send the whole SPL balance on `--max` for scaled-UI Token-2022 mints | Merged |
+| [Miden VM](https://github.com/0xMiden/miden-vm/pull/4125) | Fix `miden-format` output that no longer parsed | Merged |
 | [Miden VM](https://github.com/0xMiden/miden-vm/pull/4126) | Keep `miden-format` type bodies within the line limit | Merged |
 | [Nansen CLI](https://github.com/nansen-ai/nansen-cli/pull/874) | Report a Hyperliquid order whose connection dropped as possibly placed, not as never sent | Merged |
 | [Nansen CLI](https://github.com/nansen-ai/nansen-cli/pull/875) | Read the alert being updated from the API, not the response cache | Merged |
@@ -29,8 +30,11 @@ the open-source infrastructure they depend on. I focus on the parts that move mo
 | [OpenZeppelin](https://github.com/OpenZeppelin/stellar-contracts/pull/963) | Reject invalid `live_until_ledger` in confidential token allowances | Merged |
 | [Tempo](https://github.com/tempoxyz/tempo/pull/8825) | Faster prewarm invalidation (16k txs: 4.9 s → 5.5 ms) | Merged |
 | [Seaport.js](https://github.com/ProjectOpenSea/seaport-js/pull/1069) | Respect `accountAddress` in `createBulkOrders` | Merged in #1069 (co-author) |
-| [Miden VM](https://github.com/0xMiden/miden-vm/pull/4125) | Fix `miden-format` output that no longer parsed | In review |
+| [Seaport.js](https://github.com/ProjectOpenSea/seaport-js/pull/1089) | Check that an offerer can cover all of their orders in a batch | In review |
+| [Fhenix CoFHE contracts](https://github.com/FhenixProtocol/cofhe-contracts/pull/180) | Treat an uninitialized handle as zero in `FHE.sol` casts | In review |
 | [Fhenix CoFHE contracts](https://github.com/FhenixProtocol/cofhe-contracts/pull/163) | Enforce security zones in `select` | In review |
+| [Fhenix CoFHE SDK](https://github.com/FhenixProtocol/cofhesdk/pull/529) | Give concurrent `encryptInputs` calls on the mocks their own state | In review |
+| [Arch Wallet Hub](https://github.com/Arch-Network/arch-wallet-hub/pull/195) | Select BTC coins against the fee for the inputs actually used | In review |
 | [Seismic Foundry](https://github.com/SeismicSystems/seismic-foundry/pull/235) | Sanitize `eth_createAccessList` requests | In review |
 | [Agent Commerce Kit](https://github.com/agentcommercekit/ack/pull/261) | Apply the resolver timeout to `did:jwks` | In review |
 | [Ink node](https://github.com/inkonchain/node/pull/99) | Fix snapshot download retries | In review |
@@ -39,6 +43,9 @@ the open-source infrastructure they depend on. I focus on the parts that move mo
 
 | Project | Report | Status |
 |---|---|---|
+| [Celo attribution tags](https://github.com/celo-org/attribution-tags/issues/30) | `verifyTx` returns null for tagged transactions sent through a relayer | Confirmed, fixed in `@celo/attribution-tags` 0.6.0 |
+| [Miden VM](https://github.com/0xMiden/miden-vm/issues/4116) | `miden-format` writes signature commas into item comments | Fixed by my PR #4125 |
+| [Tempo](https://github.com/tempoxyz/tempo/issues/9529) | `eth_estimateGas` rejects a sponsored request with fees from an unfunded sender | Open, fix linked |
 | [Arc](https://github.com/circlefin/arc-node/issues/519) | Docker setup fails on Linux: `arc-snapshots` cannot write the `$ARC_HOME` bind mount | Confirmed, fixed by the Arc team |
 | [Arc](https://github.com/circlefin/arc-node/issues/507) | `db` and `stage` subcommands fail with the default `--datadir` | Confirmed, tracked by the Arc team |
 | [Arc](https://github.com/circlefin/arc-node/issues/501) | Database rollback leaves rows above the certificate tip | Open |
